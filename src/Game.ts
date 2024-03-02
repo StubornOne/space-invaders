@@ -1,6 +1,6 @@
 import { clamp, type Rect } from "./utils/utils"
 import { onMounted, type Ref, onBeforeUnmount } from "vue"
-import InvaderImg from '@/assets/Sprites/Invader0.svg?url'
+import InvaderImg from '@/assets/sprites/Invader0.svg?url'
 import PlayerImg from '@/assets/sprites/Player.svg?url'
 import shootSoundFile from '@/assets/audio/shoot.wav?url'
 const shootSound = new Audio(shootSoundFile)

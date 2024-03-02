@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Shooter from "../assets/Sprites/Player.svg";
+import Shooter from "../assets/sprites/Player.svg";
 
 
 defineProps<{
