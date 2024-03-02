@@ -100,7 +100,7 @@ export function useGame({ $canvas }: GameOptions) {
     }
     else {
       for (let invader = 0; invader < invaders.length; invader++) {
-        invaders[invader].x -= config.invaderMoveSpeed
+        invaders[invader].x -= gameWidth * config.invaderMoveSpeed
       } 
     }
 
